@@ -45,6 +45,8 @@ const Counter: React.FC<{ end: string, duration?: number }> = ({ end, duration =
 };
 
 export const Hero: React.FC<HeroProps> = ({ data, onOpenAbout }) => {
+
+    console.log("Note: To render Open To Opportunities Badge add ?oto=true");
     return (
         <section className="relative">
             <div className="flex flex-col sm:flex-row items-center sm:items-start gap-8">
@@ -59,15 +61,13 @@ export const Hero: React.FC<HeroProps> = ({ data, onOpenAbout }) => {
                     </div>
                 </div>
                 <div className="text-center sm:text-left flex-1">
-                    {data.openToWork && (
-                        <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-600 dark:text-emerald-400 text-xs font-medium mb-4 shadow-sm hover:shadow-md transition-all cursor-default">
-                            <span className="relative flex h-2 w-2">
-                                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-500 opacity-75"></span>
-                                <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
-                            </span>
-                            Open to Opportunities
-                        </div>
-                    )}
+                    <div style={{ display: data.openToWork ? null : "none" }} className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-600 dark:text-emerald-400 text-xs font-medium mb-4 shadow-sm hover:shadow-md transition-all cursor-default">
+                        <span className="relative flex h-2 w-2">
+                            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-500 opacity-75"></span>
+                            <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
+                        </span>
+                        Open to Opportunities
+                    </div>
                     
                     <div className="flex items-center justify-center sm:justify-start gap-2 mb-2">
                         <span className="text-2xl animate-wave origin-bottom-right inline-block">👋</span>

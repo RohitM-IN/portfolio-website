@@ -3,14 +3,26 @@ import React from 'react';
 interface NavbarProps {
     darkMode: boolean;
     toggleTheme: () => void;
+    titleName: string;
 }
 
-export const Navbar: React.FC<NavbarProps> = ({ darkMode, toggleTheme }) => {
+export const Navbar: React.FC<NavbarProps> = ({ darkMode, toggleTheme, titleName }) => {
+
+    const getInitials = (name = "") => {
+        const words = name.trim().split(/\s+/);
+
+        if (words.length === 1) {
+            return words[0].slice(0, 2).toUpperCase();
+        }
+
+        return (words[0][0] + words[words.length - 1][0]).toUpperCase();
+    };
+
     return (
         <nav className="fixed top-0 w-full z-50 glass-card border-b border-gray-200 dark:border-white/5 transition-colors duration-300">
             <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
                 <span className="font-display font-bold text-lg tracking-tight text-gray-900 dark:text-white">
-                    RM<span className="text-primary">.</span>
+                    {getInitials(titleName)} <span className="text-primary">.</span>
                 </span>
                 <div className="flex items-center gap-4">
                     <button
