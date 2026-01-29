@@ -1,15 +1,15 @@
-import React, { useState, useEffect } from 'react';
-import { PortfolioData } from './types';
-import { Navbar } from './components/Navbar';
-import { Hero } from './components/Hero';
-import { Competencies } from './components/Competencies';
-import { Experience } from './components/Experience';
-import { TechStack } from './components/TechStack';
-import { Education } from './components/Education';
-import { Projects } from './components/Projects';
-import { Footer } from './components/Footer';
-import { Drawer } from './components/Drawer';
+import { useEffect, useState } from 'react';
 import './App.css';
+import { Competencies } from './components/Competencies';
+import { Drawer } from './components/Drawer';
+import { Education } from './components/Education';
+import { Experience } from './components/Experience';
+import { Footer } from './components/Footer';
+import { Hero } from './components/Hero';
+import { Navbar } from './components/Navbar';
+import { Projects } from './components/Projects';
+import { TechStack } from './components/TechStack';
+import { PortfolioData } from './types';
 
 function App() {
   const [darkMode, setDarkMode] = useState(true);
