@@ -15,7 +15,7 @@
       { "value": "8+", "label": "Skills Mastered" },
       { "value": "3+", "label": "Languages" }
     ],
-    "openToWork": true
+    "openToWork": false
   },
   "competencies": [
     {
