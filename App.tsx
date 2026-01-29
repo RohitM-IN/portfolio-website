@@ -54,6 +54,13 @@ function App() {
           data.projects = data.projects.filter(project => !project.hidden);
         }
 
+        // Calculate and update years of experience dynamically
+        const yearsExp = calculateYearsOfExperience(data.experience);
+        const yearsExpStat = data.profile.stats.find(stat => stat.label === 'Years Exp.');
+        if (yearsExpStat) {
+          yearsExpStat.value = `${yearsExp}+`;
+        }
+
         setPortfolioData(data);
       })
       .catch((error) => console.error("Failed to load portfolio data:", error));
@@ -69,6 +76,34 @@ function App() {
       localStorage.theme = 'dark';
       setDarkMode(true);
     }
+  };
+
+  // Calculate years of experience from earliest role start date
+  const calculateYearsOfExperience = (experienceData: PortfolioData['experience']): number => {
+    const currentDate = new Date();
+    let earliestDate: Date | null = null;
+
+    experienceData.forEach(exp => {
+      exp.roles.forEach(role => {
+        // Parse the period string (e.g., "June 2022 - Jan 2023" or "Jan 2024 - Present")
+        const startDateStr = role.period.split(' - ')[0];
+        
+        // Parse month and year
+        const startDate = new Date(startDateStr);
+        
+        if (!earliestDate || startDate < earliestDate) {
+          earliestDate = startDate;
+        }
+      });
+    });
+
+    if (earliestDate) {
+      const diffTime = currentDate.getTime() - earliestDate.getTime();
+      const diffYears = diffTime / (1000 * 60 * 60 * 24 * 365.25);
+      return Math.floor(diffYears);
+    }
+
+    return 0;
   };
 
   if (!portfolioData) {

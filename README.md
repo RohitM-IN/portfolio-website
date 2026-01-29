@@ -1,20 +1,79 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Rohit Mahajan - Portfolio
 
-# Run and deploy your AI Studio app
+A modern, responsive portfolio website built with React, TypeScript, Vite, and Tailwind CSS v4.
 
-This contains everything you need to run your app locally.
+## Features
 
-View your app in AI Studio: https://ai.studio/apps/drive/1X9bu95TgqJjULGqrSJxzjjT8XBc8KUtR
+- 🎨 Clean, modern design with dark mode support
+- 📱 Fully responsive layout
+- ⚡ Fast performance with Vite
+- 🎯 Dynamic content loaded from JSON
+- 📊 Auto-calculated years of experience
+- 🔄 Smooth animations and transitions
+- 🎭 Interactive drawer component
+- 🌙 Persistent theme preferences
+
+## Tech Stack
+
+- **React 19** - UI framework
+- **TypeScript** - Type safety
+- **Vite** - Build tool
+- **Tailwind CSS v4** - Styling
+- **pnpm** - Package manager
 
 ## Run Locally
 
-**Prerequisites:**  Node.js
-
+**Prerequisites:** Node.js 18+ and pnpm
 
 1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+   ```bash
+   pnpm install
+   ```
+
+2. Run the development server:
+   ```bash
+   pnpm dev
+   ```
+
+3. Open [http://localhost:3000](http://localhost:3000) in your browser
+
+## Build for Production
+
+```bash
+pnpm build
+```
+
+Preview the production build:
+```bash
+pnpm preview
+```
+
+## Configuration
+
+Edit `data.json` to customize:
+- Profile information
+- Experience history
+- Skills and competencies
+- Projects
+- Education
+- Social links
+
+### Query Parameters
+
+- `?oto=true` - Show "Open to Opportunities" badge
+- `?oto=false` - Hide "Open to Opportunities" badge
+- `?hidden=false` - Show all projects including hidden ones
+
+## Project Structure
+
+```
+├── components/          # React components
+├── data.json           # Portfolio content
+├── App.tsx             # Main app component
+├── App.css             # Tailwind CSS configuration
+└── types.ts            # TypeScript type definitions
+```
+
+## License
+
+MIT
