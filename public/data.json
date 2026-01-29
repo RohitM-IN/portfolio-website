@@ -108,7 +108,7 @@
       "hidden": false
     },
     {
-      "title": "SteamDetailz Backend",
+      "title": "SteamDetailz Car Wash Platform",
       "description": "Location-based car wash service platform with authoritative backend system. Features ad-hoc booking management, real-time availability engine, per-vehicle yearly loyalty tiers, WhatsApp integration, and audit-grade admin controls. Built with .NET 10, PostgreSQL/PostGIS, clean architecture, and permission-based authorization.",
       "link": "https://github.com/steamdetailz",
       "tags": [
