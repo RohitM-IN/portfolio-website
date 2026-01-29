@@ -108,10 +108,14 @@
       "hidden": false
     },
     {
-      "title": "SteamDetailz Car Wash Platform",
-      "description": "Location-based car wash service platform with authoritative backend system. Features ad-hoc booking management, real-time availability engine, per-vehicle yearly loyalty tiers, WhatsApp integration, and audit-grade admin controls. Built with .NET 10, PostgreSQL/PostGIS, clean architecture, and permission-based authorization.",
+      "title": "Car Wash Platform",
+      "description": "Full-stack location-based car wash service platform featuring a React-based admin panel for comprehensive management, a consumer mobile app for bookings, and an authoritative backend system. Includes ad-hoc booking management, real-time availability engine, per-vehicle yearly loyalty tiers, WhatsApp integration, and audit-grade admin controls. Built with React, .NET 10, PostgreSQL/PostGIS, clean architecture, and permission-based authorization.",
       "link": "https://github.com/steamdetailz",
       "tags": [
+        "React",
+        "TypeScript",
+        "Admin Panel",
+        "Consumer App",
         ".NET 10",
         "PostgreSQL",
         "PostGIS",
