@@ -63,6 +63,7 @@ export interface Social {
   icon?: string;
   svgIcon?: string;
   link: string;
+  target?: string;
 }
 
 export interface PortfolioData {

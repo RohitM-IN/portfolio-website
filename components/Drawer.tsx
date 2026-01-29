@@ -29,7 +29,7 @@ export const Drawer: React.FC<DrawerProps> = ({ isOpen, onClose, title, children
             />
             
             {/* Drawer Content */}
-            <div className="relative w-full max-w-md h-full bg-white/90 dark:bg-[#0a0a0a]/95 backdrop-blur-xl shadow-2xl border-l border-gray-200 dark:border-white/10 p-6 sm:p-8 overflow-y-auto animate-slide-in-right">
+            <div className="relative w-full max-w-md h-full bg-white/90 dark:bg-[#0a0a0a]/95 backdrop-blur-xl shadow-2xl border-l border-gray-200 dark:border-white/10 px-6 pb-6 sm:px-8 sm:pb-8 overflow-y-auto animate-slide-in-right">
                 <div className="flex items-center justify-between mb-8 sticky top-0 bg-inherit pt-2 pb-4 z-10">
                     <h2 className="text-2xl font-display font-bold text-gray-900 dark:text-white">{title}</h2>
                     <button 

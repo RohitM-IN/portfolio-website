@@ -23,7 +23,7 @@ export const Projects: React.FC<ProjectsProps> = ({ data }) => {
                              <div className="relative z-10">
                                 <div className="flex justify-between items-start mb-4">
                                     <h3 className="text-xl font-bold text-gray-900 dark:text-white group-hover:text-primary transition-colors duration-300">{project.title}</h3>
-                                    <a href={project.link} className="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-white/10 transition text-gray-500 dark:text-gray-300 transform hover:rotate-45 duration-300">
+                                    <a href={project.link} target="_blank" rel="noopener noreferrer" className="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-white/10 transition text-gray-500 dark:text-gray-300 transform hover:rotate-45 duration-300">
                                         <span className="material-symbols-rounded">open_in_new</span>
                                     </a>
                                 </div>

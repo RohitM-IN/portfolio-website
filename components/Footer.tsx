@@ -19,6 +19,7 @@ export const Footer: React.FC<FooterProps> = ({ socials, name }) => {
                         <a
                             key={index}
                             href={social.link}
+                            target={social.target ? social.target : '_self'}
                             className="group flex items-center gap-2 px-4 py-2 rounded-lg bg-gray-100 dark:bg-white/5 hover:bg-gray-200 dark:hover:bg-white/10 transition"
                         >
                             {social.svgIcon ? (
