@@ -9,6 +9,7 @@ import { Education } from './components/Education';
 import { Projects } from './components/Projects';
 import { Footer } from './components/Footer';
 import { Drawer } from './components/Drawer';
+import './App.css';
 
 function App() {
   const [darkMode, setDarkMode] = useState(true);
@@ -80,7 +81,7 @@ function App() {
 
   return (
     <>
-      <Navbar darkMode={darkMode} toggleTheme={toggleTheme} />
+      <Navbar darkMode={darkMode} toggleTheme={toggleTheme} titleName={portfolioData.profile.name} />
       <main className="max-w-3xl mx-auto px-4 sm:px-6 py-24 sm:py-32 space-y-20">
         <Hero 
             data={portfolioData.profile} 

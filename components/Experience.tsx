@@ -118,7 +118,7 @@ export const Experience: React.FC<ExperienceProps> = ({ data }) => {
                                                     <div className="absolute top-0 bottom-0 w-0.5 bg-gray-200 dark:bg-gray-800"></div> 
                                                     
                                                     {/* Dot - Margin top aligns it visually with the text title baseline */}
-                                                    <div className="w-3 h-3 rounded-full bg-gray-300 dark:bg-gray-600 border-2 border-white dark:border-[#0f0f0f] z-10 mt-1.5 group-hover:bg-primary group-hover:scale-125 transition-all duration-300"></div>
+                                                    <div className="w-3 h-3 rounded-full bg-gray-300 dark:bg-gray-600 border-2 border-white dark:border-surface-dark z-10 mt-1.5 group-hover:bg-primary group-hover:scale-125 transition-all duration-300"></div>
                                                 </div>
 
                                                 {/* Right Column: Role Details */}

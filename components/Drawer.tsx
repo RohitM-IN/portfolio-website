@@ -21,7 +21,7 @@ export const Drawer: React.FC<DrawerProps> = ({ isOpen, onClose, title, children
     if (!isOpen) return null;
 
     return (
-        <div className="fixed inset-0 z-[100] flex justify-end" role="dialog" aria-modal="true">
+        <div className="fixed inset-0 z-100 flex justify-end" role="dialog" aria-modal="true">
             {/* Backdrop */}
             <div 
                 className="absolute inset-0 bg-black/20 dark:bg-black/50 backdrop-blur-sm transition-opacity cursor-pointer" 

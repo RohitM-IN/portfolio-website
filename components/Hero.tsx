@@ -51,7 +51,7 @@ export const Hero: React.FC<HeroProps> = ({ data, onOpenAbout }) => {
         <section className="relative">
             <div className="flex flex-col sm:flex-row items-center sm:items-start gap-8">
                 <div className="relative group shrink-0">
-                    <div className="absolute -inset-1 bg-gradient-to-r from-primary to-purple-600 rounded-2xl blur opacity-25 group-hover:opacity-50 transition duration-1000 group-hover:duration-200"></div>
+                    <div className="absolute -inset-1 bg-linear-to-r from-primary to-purple-600 rounded-2xl blur opacity-25 group-hover:opacity-50 transition duration-1000 group-hover:duration-200"></div>
                     <div className="relative w-32 h-32 sm:w-40 sm:h-40 rounded-2xl overflow-hidden border-2 border-white dark:border-gray-800 shadow-xl">
                         <img
                             alt={data.name}
