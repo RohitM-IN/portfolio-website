@@ -1,0 +1,110 @@
+{
+  "profile": {
+    "name": "Rohit Mahajan",
+    "role": "Software Developer at Excellon Software",
+    "shortRole": "Software Engineer",
+    "bio": "Software Developer with expertise in building scalable backend systems, optimizing databases, and delivering clean, maintainable code.",
+    "about": [
+      "I am a passionate Software Developer with over 5 years of experience in designing and implementing robust backend architectures. My journey began with a curiosity for how data flows through systems, which has evolved into a career focused on building high-availability solutions using .NET Core and SQL Server.",
+      "At Excellon Software, I have had the privilege of leading critical initiatives, such as optimizing legacy database queries to reduce latency by 20% and spearheading the migration of monolithic modules to microservices. I thrive in collaborative environments where I can solve complex problems and contribute to the product's strategic vision.",
+      "Beyond the code, I am a strong advocate for Developer Experience (DX) and Clean Code principles. I actively mentor junior developers, conduct code reviews, and contribute to internal tools that streamline development workflows. When I'm not coding, I enjoy exploring new technologies and contributing to open-source projects like DBSyncKit."
+    ],
+    "avatar": "https://lh3.googleusercontent.com/aida-public/AB6AXuDRTg6-dOh1AiUQaLZu4HMmUdvRABAyIe5OFV0Q8mXh_tZ_JAQxyl1l9US6XOwT5uVZ9UfSs7Zzumx7Zd0cITWISKZRSN5QIjnyUzpFwT__brpF1zO27oevClY4WWl6wY90XBVnpaiuCz33D2fXkPyLwC1YgNAyy4LdUttreELpifAE7HUlDJoj4fXieR6homs18TAF4zhljs8pWz2TAvCDudJ28rvrnr_S2hLsBt6VL2RDZJLq3sY8TjkS0RpBJiuKHSkgfTXr8Kc",
+    "stats": [
+      { "value": "5+", "label": "Years Exp." },
+      { "value": "8+", "label": "Skills Mastered" },
+      { "value": "3+", "label": "Languages" }
+    ],
+    "openToWork": true
+  },
+  "competencies": [
+    {
+      "title": "System Architecture",
+      "description": "Designing scalable, high-availability backend systems and microservices using .NET Core.",
+      "icon": "architecture",
+      "color": "blue"
+    },
+    {
+      "title": "Database Optimization",
+      "description": "Expertise in SQL Server tuning, complex query optimization, and efficient data modeling.",
+      "icon": "database",
+      "color": "purple"
+    },
+    {
+      "title": "API Development",
+      "description": "Building RESTful APIs and integrating third-party services with secure authentication patterns.",
+      "icon": "api",
+      "color": "green"
+    },
+    {
+      "title": "Clean Code Practices",
+      "description": "Advocate for SOLID principles, design patterns, and maintainable codebase structures.",
+      "icon": "code",
+      "color": "orange"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Excellon Software",
+      "website": "excellonsoftware.com",
+      "logoText": "ES",
+      "color": "gray-900",
+      "employmentType": "Full-time",
+      "roles": [
+        {
+          "title": "Software Engineer",
+          "period": "Jan 2024 - Present",
+          "description": "Provided leadership and expertise in the role, collaborating with teams to deliver exceptional results and drive business objectives. Optimized backend services reducing latency by 20%."
+        },
+        {
+          "title": "Software Developer",
+          "period": "Jan 2023 - Jan 2024",
+          "description": "Spearheaded the migration of legacy modules to modern frameworks. Collaborated with cross-functional teams to ensure seamless integration."
+        },
+        {
+          "title": "Associate Software Developer",
+          "period": "June 2022 - Jan 2023",
+          "description": "Assisted senior developers in bug fixing and feature implementation. Gained deep understanding of the product lifecycle and deployment pipelines."
+        }
+      ]
+    }
+  ],
+  "techStack": [
+    { "name": ".NET Core", "iconUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuCxJbCGt-6HuTMDrrTHZ7HnOmCpBbMP_AY_C0xTPKxFfzvrMggGjnPCcjY0dRCzOr3uFNtZ7ZUTO7-60DN81mjRRbjpqjyxekuWuGPNTHjCtsa55Nr51dmPJarl9V_PbyPkNy-Wx5zo3pr3JFK04BvdoJzmNado3k7VS4sQb3YTm4oT3N_daJHi3r58hHbIDKXxMJp9mWQ7Oh99i-5Sk9jKiuyv-9ZMxgE3H5QNcpJLfcWKC_ZICDUPcWTYY3TYIFWDrmcsIDjeOAI" },
+    { "name": "C#", "iconUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuAVShPbrLfCwhrqyjITasIu1q0osHlJkcnJaXF7C46ZmAYIgpntUHmT1X_AL5o6ccMLtjxItGLwZaH8WqxgrAJJqUBQFrLh7cHh6Jv-85XBHzlxAGOl8xW8XyHeTP_L4XtwQfKAUrw2ueVEz3lh6S1kVFnE_lkXDVgczfBtOl5jdlmi2khVJaP06DFLhfVXxwncxOHLGJhKvx-l-ETi2pm9OElj8WPnyqeGNv1ejWK8fBQoHrkhtaLWGaFNdB_iO58d5-KtkWYlHoo" },
+    { "name": "JavaScript", "iconUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuDI5-G-jkaXJpXLV8ovCWZhOnUcc-dLMB44b3gR03tXVBEgCsws9XjtIYM6Ce4E7oTpOQROFRLBBvzto56KMjc9G17cQ29QN-VXl65Qp6EueN5XXDxSpWE_nDOR3P7ToUJliXdo3NNfyX42ChwkwA7FN6OcPSSRDwWBy8PiUPWd6PBEdUZWJBLlgAATLUScZZTHkDjnnrE4DXQdKAFB7Pz1G0ljObEbVU9tdn__3H3YYXGFIpQPpy_MkJj_riYnJG12pOLH_OKLCzE" },
+    { "name": "Azure DevOps", "iconUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuCsYOruvLJH9cUyqHHoL-iXLqwqLVb06eBJPvk0TO02j4piLb9LXpLI7nwwgoFd-gN04PoYtf2D93T_mn43iJivDqTVyVwncWcpf42JV0f1IHOiet5pcJJnF-I2fqAlRJYqqPNzsJnsNgW1qUz5NPAL-gdcWkXMhZs1lCs8Xaz1HdzzFktzPwh9IwK6HwQp7ycVXnVlWinj26in6KUDufoXu8W_6bPHebo-LrFjN0MeMHwU3UYmW9nAUbEs0Z4Ep4ZYMMQTItNxPm4" },
+    { "name": "SQL Server", "iconUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuBLguR7nSeVY2lJz7PLtGZ22pNQRICJMVmOFh0rUPTkFmh40M-AHIxfsKsxFrMQgnmwf1XWRFJ_MKIcddV-_a747_ntfaRH4ZJitS_5jYiu54Ivunv4wTdHyXjmJvpkvnvpcY_yNOELzkMUdThVupZP198LL_wc75t5wvsloS78gHMV_CpltvKc_W9PyMWBw6B2eTd-Ar7p8f75zAhUj8jjq2J66-zjCgGSvH4APcBxonoyzVS5j2RXq46ySTAJNSYRmw4zXs1z2UE" },
+    { "name": "Python", "iconUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuDQbzO5WurSzwLfuqfzXnmGgrbP2Ol-nj2GiL8vGUePabgsXSGQf1g35nQMx36yEo9e7vxpW-xbtO6SeH3cGglLjnimgycNTnQmMjwt51vk7VPG6pQkpzc04YcFAqZ7g89bjHb5W2Lc9Uo_ZtRkEhG0pNHUJ3IzMY1dZZZkWe0WJhVM_4vepRB54JK9M52jXMNHRPFr25NBve341VpY-6T9Iyh0KcEAKXmCce9pcDEKKuSndzaE0c14ftV7_PW7QHRxGA7JPavIh84" },
+    { "name": "React", "iconUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuA17eldorufHtpt7jaj-hn1n_Vu6fsK8M9rYO_mpn2iEZyRFKG5qIu70rcotRonGDAjnnrTWhmsLMFLl5fMDOBnQUEEkrqIyWFSOtiAjZ8z6ktOvAp5mVfjL2505atqIvfg7r4zEDdnP9WkIDPdUvTX1vaAR65UjbnaVgFZizrvzgYOqZWqRpkpGLiylZeInglu4zeMPtSkXBLmg91jM2OWTPq_nnKfUOBBKAjCc5Iu0yEhjyMnpFoTOvDQbJ6KBAOxjihothAYAWw" },
+    { "name": "Laravel", "icon" : "terminal" }
+  ],
+  "education": [
+    {
+      "school": "Nagpur University",
+      "degree": "Bachelor of Engineering - BE, Computer Science",
+      "period": "2018 - 2022",
+      "logoText": "NU"
+    },
+    {
+      "school": "Maharashtra State Board",
+      "degree": "High School Diploma",
+      "period": "2016 - 2018",
+      "logoText": "MS"
+    }
+  ],
+  "projects": [
+    {
+      "title": "DBSyncKit",
+      "description": "DBSyncKit is a powerful library for efficient and fast data synchronization operations across various database systems. Whether you're working with Microsoft SQL Server, MySQL, PostgreSQL, or SQLite, DBSyncKit provides a comprehensive suite of packages to streamline your synchronization tasks.",
+      "link": "#",
+      "tags": ["C#", "NuGet", "Open Source"],
+      "hidden": false
+    }
+  ],
+  "socials": [
+    { "name": "Email", "icon": "mail", "link": "mailto:example@example.com" },
+    { "name": "LinkedIn", "svgIcon": "M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z", "link": "#" },
+    { "name": "GitHub", "svgIcon": "M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z", "link": "#" }
+  ]
+}
